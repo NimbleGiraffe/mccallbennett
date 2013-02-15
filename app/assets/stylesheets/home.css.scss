@@ -20,10 +20,9 @@ body {
 	width: 100%;
 }
 
-p.title{
-	text-align:left;
-	font-weight:bold;
-	font-family: 'Cinzel Decorative', cursive;
+#title{
+	width: 200px;
+  height: auto;
 }
 
 #nav {
@@ -34,6 +33,11 @@ p.title{
   list-style: none;
   background-color: #f0f0f0;
   overflow:auto;
+}
+
+#nav img {
+  width:80px;
+  height: auto;
 }
 
 #nav li {
@@ -49,7 +53,7 @@ p.title{
   color: #000000;
 }
 
-#nav li a:hover {
+#nav li img:hover {
   color: #f0f0f0;
   background-color: #000000; 
 }

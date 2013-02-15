@@ -62,7 +62,6 @@ html[xmlns] .slides { display: block; }
     min-width: 150px;
     max-width: 980px;
     margin: 0 auto;
-    padding-top: 20px;
 }
  
 .flexslider .slides { zoom: 1; }
