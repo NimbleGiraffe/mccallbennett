@@ -4,9 +4,8 @@ body {
 
 #container{
   width: 980px;
-  height: 1600px;
+  height: 1800px;
   margin: 0 auto;
-  min-height:100%;
   position:relative;
 }
 
@@ -18,15 +17,17 @@ body {
 
 #logo{
 	width: 100%;
+  height: 60px
 }
 
 #title{
-	width: 200px;
+	width: 250px;
   height: auto;
 }
 
 #nav {
   width: 100%;
+  height: 40px;
   float: right;
   margin: 0;
   padding: 0;
@@ -45,8 +46,7 @@ body {
 }
 
 #nav li a {
-  display: block;
-  padding: 8px 15px;
+  padding-right: 15px;
   text-decoration: none;
   font-weight: bold;
   font-family: 'Cinzel', serif;
@@ -56,6 +56,11 @@ body {
 #nav li img:hover {
   color: #f0f0f0;
   background-color: #000000; 
+}
+
+.pic {
+  width:auto;
+  height: 700px;
 }
 
 #rectangle {

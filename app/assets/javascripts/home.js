@@ -22,4 +22,8 @@ $(document).ready(function () {
         controlsContainer: '.flexslider'
     });
 
+    setTimeout(function() {
+        $("#container").css("height", String($("#item1").offset().top+680)+"px");
+    }, 1000);
+
 });
