@@ -1,4 +1,10 @@
 Mb::Application.routes.draw do
+  get "contact/contact"
+
+  get "about/about"
+
+  get "shop/products"
+
   get "home/index"
 
   # The priority is based upon order of creation:
@@ -50,7 +56,12 @@ Mb::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'home#index'
+  root :to => redirect("/index")
+
+  match "/index" => "home#index"
+  match "/shop" => "shop#products"
+  match "/about_us" => "about#about"
+  match "/contact" => "contact#contact"
 
   # See how all your routes lay out with "rake routes"
 
